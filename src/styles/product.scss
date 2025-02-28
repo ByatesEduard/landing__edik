@@ -1,0 +1,14 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+.product {
+ font-weight: bold;
+ grid-column: span 4;
+ 
+  &__photo {
+    width: 100%;
+  }
+}

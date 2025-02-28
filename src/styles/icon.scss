@@ -1,11 +1,25 @@
-.icon--phone{
-  background-image: url(../icons/Icon-Phone-call.png);
+.icon{
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+
+  @include onTablet {
+   height: 32px;
+   width: 32px;
+  }
+
+  &--phone{
+    background-image: url(../icons/Icon-Phone-call.png);
+  }
+
+  &--menu{
+    background-image: url(../icons/Icon-Burger-menu.png);
+  }
+
+  &--close{
+    background-image: url(../icons/Icon-Close.png);
+  }
+
 }
 
-.icon--menu{
-  background-image: url(../icons/Icon-Burger-menu.png);
-}
-
-.icon--close{
-  background-image: url(../icons/Icon-Close.png);
-}

@@ -1,6 +1,12 @@
-@import './header';
-@import './page';
-@import './top-bar';
-@import './menu';
-@import './icon';
-@import './nav';
+.main{
+  padding-block: 96px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @include constentPaddingInline;
+
+  @include onTablet{
+    padding-block: 120px;
+  }
+
+}
